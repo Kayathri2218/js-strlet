@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta content="width=dives-width, initial-scale=1.0">
+    <title>string change number</title>
+</head>
+
+<body>
+    <script>
+        document.write('<br>');
+        document.write('<br>');
+
+        //1. string value change number
+        document.write("string value change number : ");
+        document.write('<br>');
+        var result = [];
+        var alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+        var input = ['a', 'f', 'g', 'h', 'l', 'k'];
+        for (let i = 0; i < input.length; i++) {
+            for (j = 0; j < alphabets.length; j++) {
+                if (input[i] == alphabets[j]) {
+                    result[i] = j + 1;
+                }
+            }
+        }
+        document.write(result);
+
+
+
+    </script>
+</body>
+
+</html>
